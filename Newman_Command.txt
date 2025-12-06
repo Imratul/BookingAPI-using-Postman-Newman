@@ -1,0 +1,3 @@
+newman run Batch_26.postman_collection.json -e Batch-26.postman_environment.json -r cli,html
+
+newman run Batch_26.postman_collection.json -e Batch-26.postman_environment.json -r cli,htmlextra
