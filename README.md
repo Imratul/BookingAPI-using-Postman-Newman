@@ -46,3 +46,10 @@ The **Update** method uses a **PUT** or **PATCH** request to modify existing dat
 The **Delete** method sends a request to a server or API endpoint to remove a specific resource. It enables users to delete data entries, records, or other resources from the server, permanently removing them from the system.
 
 ![Alt Text](Screenshots/DeleteBooking.png)
+
+
+### Postman Environment
+
+Environment is used to define reusable variables (e.g., URLs, API keys, tokens) that can be applied across various requests in a collection, making API testing more efficient and easier to maintain.
+
+![Alt Text](PostmanEnvironment.png)
