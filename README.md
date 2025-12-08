@@ -55,7 +55,7 @@ Environment is used to define reusable variables (e.g., URLs, API keys, tokens) 
 ![Alt Text](Screenshots/PostmanEnvironment.png)
 
 
-### Newman Run Command
+### Newman Commands
 
 Using the Newman Run Command, API collections can be executed directly from the command line. This supports test automation, pipeline integration, and detailed reporting, making API testing more efficient and scalable.
 
@@ -63,9 +63,10 @@ Using the Newman Run Command, API collections can be executed directly from the 
 
 `newman run BookingAPI.postman_collection.json -e New Environment.postman_environment.json -r cli,htmlextra`
 
-### Newman Test Report
+### Newman Test Reports
+
+![Alt Text](Screenshots/Newmanhtml.png)
 
 ![Alt Text](Screenshots/Newmanhtmlextra.png)
 
-![Alt Text](Screenshots/Newmanhtml.png)
 
