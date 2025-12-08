@@ -52,4 +52,20 @@ The **Delete** method sends a request to a server or API endpoint to remove a sp
 
 Environment is used to define reusable variables (e.g., URLs, API keys, tokens) that can be applied across various requests in a collection, making API testing more efficient and easier to maintain.
 
-![Alt Text](PostmanEnvironment.png)
+![Alt Text](Screenshots/PostmanEnvironment.png)
+
+
+### Newman Run Command
+
+Using the Newman Run Command, API collections can be executed directly from the command line. This supports test automation, pipeline integration, and detailed reporting, making API testing more efficient and scalable.
+
+`newman run BookingAPI.postman_collection.json -e New Environment.postman_environment.json -r cli,html`
+
+`newman run BookingAPI.postman_collection.json -e New Environment.postman_environment.json -r cli,htmlextra`
+
+### Newman Test Report
+
+![Alt Text](Screenshots/Newmanhtmlextra.png)
+
+![Alt Text](Screenshots/Newmanhtml.png)
+
